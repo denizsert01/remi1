@@ -1,0 +1,77 @@
+/* global.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.header, .navbar, .footer {
+    background: linear-gradient(135deg, #121212 0%, #ff8c00 100%);
+    border: none;
+}
+
+.img_logo {
+    max-height: 50px;
+}
+
+#top_content_main_block {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #121212 0%, #ff8c00 100%);
+    color: white;
+    text-align: center;
+}
+
+#top_content_main_block h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#top_content_main_block p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+}
+
+#top_content_main_block .btn {
+    padding: 10px 30px;
+    font-size: 1.25rem;
+    background: linear-gradient(135deg, #ff8c00 0%, #ffd700 100%);
+    border: none;
+    color: white;
+}
+
+#top_content_main_block .btn:hover {
+    background: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%);
+}
+
+.carousel-inner img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-indicators li {
+    background-color: #ffffff;
+}
+
+footer {
+    background: linear-gradient(135deg, #121212 0%, #ff8c00 100%);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.card-header.bg-primary {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+}
+
+.card-header.bg-success {
+    background: linear-gradient(135deg, #28a745 0%, #1e7e34 100%);
+}
+
+.card-header.bg-warning {
+    background: linear-gradient(135deg, #ffc107 0%, #e0a800 100%);
+}
